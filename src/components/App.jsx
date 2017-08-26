@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addReminder, deleteReminder, clearReminders } from '../actions';
 import moment from 'moment';
+import { addReminder, deleteReminder, clearReminders } from '../actions';
 
 class App extends Component {
   constructor(props) {

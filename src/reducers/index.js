@@ -1,8 +1,8 @@
-import { ADD_REMINDER, DELETE_REMINDER, CLEAR_REMINDERS } from '../constants';
 import { bake_cookie, read_cookie } from 'sfcookies';
+import { ADD_REMINDER, DELETE_REMINDER, CLEAR_REMINDERS } from '../constants';
 
 const reminder = (action) => {
-  let { text, dueDate } = action;
+  const { text, dueDate } = action;
   return {
     id: Math.random(),
     text,
