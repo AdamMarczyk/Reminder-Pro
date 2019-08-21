@@ -12,7 +12,7 @@
     "react-scripts": "3.0.0",
     "redux": "^3.7.2",
     "sfcookies": "^1.0.2",
-    "snyk": "^1.192.3"
+    "snyk": "^1.217.3"
   },
   "scripts": {
     "predeploy": "npm run build",
